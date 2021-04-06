@@ -9,7 +9,7 @@ int distance;
 Servo myServo; // Creates a servo object for controlling the servo motor
 void setup() {
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
-  pinMode(echoPin, INPUT); // Sets the echoPin as an Input
+  pinMode(echoPin, INPUT); // Sets the triechoPin as an Output
   Serial.begin(9600);
   myServo.attach(12); // Defines on which pin is the servo motor attached
 }
